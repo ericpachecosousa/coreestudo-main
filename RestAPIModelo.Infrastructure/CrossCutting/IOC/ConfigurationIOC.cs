@@ -24,7 +24,7 @@ namespace RestAPIModelo.Infrastructure.CrossCutting.IOC
             builder.RegisterType<RepositoryProduct>().As<IRepositoryProduct>();
             builder.RegisterType<MapperClient>().As<IMapperClient>();
             builder.RegisterType<MapperProduct>().As<IMapperProduct>();
-
+            //
             //builder.Register(ctx => new MapperConfiguration(cfg =>
             //{
             //    cfg.AddProfile(new DtoToModelMappingClient());
